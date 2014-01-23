@@ -5,10 +5,10 @@ body {
 
 	
 }
-.input, .user-form{
+.input, .user-form, .text-area{
 	width: 100%;
 }
-.input{
+.input, .text-area{
 
 	
 	display: block;
