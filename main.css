@@ -1,0 +1,58 @@
+body {
+	font-size: 12px;
+}
+#content{
+
+	
+}
+
+.input{
+
+	width: 70%;
+	display: block;
+	padding: 1em 3em;
+	
+}
+
+.input-list-li, .output-list-li{
+	padding : 2em;
+	list-style: none;
+}
+
+.profile-display{
+
+	display: inline;
+}
+.avatar, .input{
+
+	border: 1px solid #000;
+
+}
+.button{
+
+	width: 10%;
+	padding: 1em;
+	background: #bbb;
+	color:#000;
+	text-align: center;
+	font: bold .75em sans-serif;
+	text-decoration: none;
+
+
+}
+
+.button:hover{
+
+	background: #eee;
+	color:#fff;
+}
+.button:visited{
+
+	background: #bbb;
+	color:#000;
+}
+
+.user-form-hidden{
+
+	display: none;
+}

@@ -2,23 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/css/bootstrap.min.css">
+  <title>js11-hide-a-form</title>
+  <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="main.css">
-  <title>Demo</title>
 </head>
-<body>
+	<body>
+		<div id="container">
 
-<div class="container">
+			<div id="profile-content">
 
-	
+				<ul class="output-list">
+						
+						<li class="output-list-li">
+							<h2 class = "second-header">
+								Andrew Otto
+							</h2>
+							<img class ="avatar" src="andrew.jpg">
+							
+						</li>
+						<li class="output-list-li">
+							<span>Email:</span>
+							<p class="profile-display">
+								<a href="#">andrew@andrewotto.com</a>
+							</p>
+						</li>
+						<li class="output-list-li">
+							<span>Website:</span>
+							<p class="profile-display">
+								<a href="#">www.andrewotto.com</a>
+							</p>
+						</li>
+						<li class="output-list-li">
+							<span>Location:</span>
+							<p class="profile-display">
+								Denver
+							</p>
+						</li>
+						<li class="output-list-li">
 
-</div>
+						<a href="#" id ="edit-profile-button" class="button">Edit your profile</a>
+							
+							
+						</li>
+						
+				</ul>
 
-<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="utility.js"></script>
-<script src="main.js"></script>
+			</div>
+			
 
-</body>
+			<form id="user-form" class="user-form user-form-hidden">
+				<ul class="input-list">
+					
+					<li class="input-list-li">
+						<label>Name 
+							<input class = "input" type="text" value="John Doe" tabindex="2">
+						</label>
+					</li>
+					<li class="input-list-li">
+						<label>Email (will be public)
+							<input class = "input" type="text" value="user@example.com" tabindex="2">
+						</label>
+					</li>
+					<li class="input-list-li">
+						<label>Website
+							<input class = "input" type="text" value="www.example.com" tabindex="2">
+						</label>
+					</li>
+					<li class="input-list-li">
+						<label>Location
+							<input class = "input" type="text" value="place of residence" tabindex="2">
+						</label>
+					</li>
+					<li class="input-list-li">
+						
+							<input class = "input" type="submit" value="submit">
+					</li>				
+				</ul><!-- #input-list -->
+			</form><!--#user-form  -->
+
+		</div>	<!--#container  -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="main.js"></script>
+	</body>
 </html>
