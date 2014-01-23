@@ -8,6 +8,35 @@
 </head>
 	<body>
 		<div id="container" >
+			<form id="user-form" class="user-form hidden">
+				<ul class="input-list">
+					
+					<li class="input-list-li">
+						<label>Name 
+							<input class = "input" type="text" value="John Doe" tabindex="2">
+						</label>
+					</li>
+					<li class="input-list-li">
+						<label>Email (will be public)
+							<input class = "input" type="text" value="user@example.com" tabindex="2">
+						</label>
+					</li>
+					<li class="input-list-li">
+						<label>Website
+							<input class = "input" type="text" value="www.example.com" tabindex="2">
+						</label>
+					</li>
+					<li class="input-list-li">
+						<label>Location
+							<input class = "input" type="text" value="place of residence" tabindex="2">
+						</label>
+					</li>
+					<li class="input-list-li">
+						
+							<input id="form-submit" class = "input" type="submit" value="submit">
+					</li>				
+				</ul><!-- #input-list -->
+			</form><!--#user-form  -->
 
 			<div id="profile-content">
 
@@ -48,40 +77,8 @@
 				</ul>
 
 			</div>
-			
-
-			<form id="user-form" class="user-form hidden">
-				<ul class="input-list">
-					
-					<li class="input-list-li">
-						<label>Name 
-							<input class = "input" type="text" value="John Doe" tabindex="2">
-						</label>
-					</li>
-					<li class="input-list-li">
-						<label>Email (will be public)
-							<input class = "input" type="text" value="user@example.com" tabindex="2">
-						</label>
-					</li>
-					<li class="input-list-li">
-						<label>Website
-							<input class = "input" type="text" value="www.example.com" tabindex="2">
-						</label>
-					</li>
-					<li class="input-list-li">
-						<label>Location
-							<input class = "input" type="text" value="place of residence" tabindex="2">
-						</label>
-					</li>
-					<li class="input-list-li">
-						
-							<input id="form-submit" class = "input" type="submit" value="submit">
-					</li>				
-				</ul><!-- #input-list -->
-			</form><!--#user-form  -->
-
 		</div>	<!--#container  -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script src="main.js"></script>
 	</body>
 </html>
