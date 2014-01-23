@@ -5,10 +5,12 @@ body {
 
 	
 }
-
+.input, .user-form{
+	width: 100%;
+}
 .input{
 
-	width: 70%;
+	
 	display: block;
 	padding: 1em 3em;
 	
@@ -52,7 +54,7 @@ body {
 	color:#000;
 }
 
-.user-form-hidden{
+.hidden{
 
 	display: none;
 }
