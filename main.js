@@ -8,11 +8,29 @@ $(document).ready(function(){
 	var $bioTextArea =$('#bio-text-area');
 	var $bioField = $('#bio-field');
 	//get handle on #profile-content
+	var booksString= '#books-';
+	//get handle on #profile-content
+	var $booksList =$("#books-list");
+	var $librariesList =$("#libraries-list");
 	var $profileContent = $('#profile-content');
 	var toggleForm = function(element){
 		element.toggle();
 		
 	};
+	var writeToList = function(element){
+		// var valuesList =[];
+		for (var i =1; i<=3; i++){
+			var j = i.toString();
+			// console.log(booksString+j);
+			// valuesList.push($(booksString+j).val());
+			element.append('<li>' + $(booksString+j).val() +'</li>');
+
+			
+
+		}
+		// console.log(valuesList);
+	};
+
 
 
 
@@ -32,6 +50,8 @@ $(document).ready(function(){
 		$bioField.text(bioValue);
 
 		e.preventDefault();
+
+		writeToList($booksList);
 	
 
 
