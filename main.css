@@ -5,15 +5,25 @@ body {
 
 	
 }
+.wrapped-input{
+	margin: 1% 0;
+}
+.submit{
+	width: 102.25%;
+	border: none;
+	padding: 1% 0;
+}
 .input, .user-form, .text-area{
-	width: 100%;
+	width: 96%;
 }
 .input, .text-area{
-
-	
 	display: block;
-	padding: 1em 3em;
-	
+	padding: 1% 3%;
+}
+.text-area{
+
+	resize: none;
+	overflow: auto;
 }
 
 .input-list-li, .output-list-li{

@@ -14,16 +14,9 @@ $(document).ready(function(){
 		
 	};
 
-	var updateTextElement = function(element){
 
-	};
 
-	// var displayElement = function(element){
-	// 	element.removeClass('hidden');
-	// };
-	// var hideElement = function(element){
-	// 	element.addClass('hidden');
-	// };
+	
 
 	$profileButton.click(function(e){
 		toggleForm($form);
